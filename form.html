@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li><a href="Index.html">Index</a></li>
+        <li><a href="cv.html">CV</a></li> 
+        <li><a href="game.html">Game</a></li> 
+        <li><a href="table.html">Table</a></li> 
+        <li><a href="project.html">project</a></li>
+        
+    </ul>
+    <center><ins><h1>Login Form</h1></ins></center>
+    <!-- <form action=""> -->
+        <p>username
+             <input type="text" name="username" size="15" maxlength="15">
+        </p>
+        <p>password
+            <input type="text" name="password" size="15" maxlength="15">
+        </p>
+        <p>this gig</p>
+            <textarea name="comments" cols="20" rows="4" placeholder="ENTER YOUR COMMENT"></textarea>
+            <P>select your favourite genre
+                <br>
+                <input type="radio" name="genre" value="rock" checked="checked">Rock
+                <input type="radio" name="genre" value="pop" checked="checked">pop
+                <input type="radio" name="genre" value="jazz" checked="checked">jazz
+            </P>
+            <p>Select your favourite services
+                <br>
+                <input type="checkbox" name="service" value="itunes" checked="checked">itunes
+                <input type="checkbox" name="service" value="soundcloud" checked="checked">soundcloud
+                <input type="checkbox" name="service" value="spotify" checked="checked">spotify
+            </p>
+            <p>which device do you want to listen
+                <br>
+                <select name="devices">
+                    <option value="ipod">ipod</option>
+                    <option value="mobile">mobile</option>
+                    <option value="computer">computer</option>
+                </select>
+            </p>
+            <p>Select different options
+                <br>
+                <select name="instruments" size="3" multiple="multiple">
+                    <option value="guitar" selected="selected">guitar</option>
+                    <option value="drums">drums</option>
+                    <option value="keyboard">keyboard</option>
+                    <option value="bass">bass</option>
+                </select>
+            </p>
+            <p>uplode song
+                <input type="file" name="user-song"><br>
+                <input type="submit" value="uplode">
+            </p>
+            <!-- <p>subcribe email
+                <input type="text" name="email" placeholder="email">
+                <input type="submit" name="subcribe" value="subcribe">
+            </p> -->
+            <p>email list
+                <input type="text" name="email">
+                <!-- <input type="image" src="subscribe image.jpg" width="80" height="60"> -->
+                <button><img src="subscribe image.jpg" alt="subcribe" width="10" height="10">subscribe</button>
+                <input type="hidden" name="subcribe" value="lyrics">
+            </p>
+
+            <label>Age: <input type="text" name="Age"></label>
+            <br>
+            Gender:
+            <input id="female" type="radio" name="Gender" value="female">
+            <label for="female">female</label>
+            <input id="male" type="radio" name="Gender" value="male">
+            <label for="male">male</label>
+            <fieldset> 
+                <legend>contact detalis</legend>
+                <label>email<br>
+                    <input type="text" name="email"></label><br>
+                <label>mobile<br>
+                    <input type="text" name="mobile"></label><br>
+                    <label>telephone<br>
+                        <input type="text" name="telephone"></label><br>
+                    </fieldset>
+
+
+
+    </form>
+</body>
+</html>
